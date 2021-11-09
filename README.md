@@ -1,4 +1,4 @@
-# Run to theend
+# Run to the end
 The fox needs your help  to collect as many fruits as possible. <br>
 On his way, there will be many obstacles, such as stones or wooden gates. Watch out for them! 
 <br>
