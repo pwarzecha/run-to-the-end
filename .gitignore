@@ -28,4 +28,4 @@ ExportedObj/
 *.apk
 *.unitypackage
 
-*.cs
+*.exe?.log
