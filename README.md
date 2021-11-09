@@ -1,7 +1,5 @@
 # Run-to-the-end
- 
--[CodeTime] (https://www.codetime.io)
-+[CodeTime] (https://www.codetime.io)
-+
-+1. Item one
-+2. ASD
+
+#Game description
+The fox needs your help  to collect as many fruits as possible. 
+On his way, there will be many obstacles, such as stones or wooden gates. Watch out for them! 
