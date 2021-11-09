@@ -1,0 +1,76 @@
+All methods are called through the AndroidAPI class
+
+Toast (string message) - Calls up a popup window. Has a string attribute that is responsible for the displayed message
+AndroidAPI.Toas ("Hello");
+
+Vibration (int time) - causes vibration on the player's device. It has an int type attribute, which is responsible for the vibration duration (In mil.sec.)
+AndroidAPI.Vibration (500);
+
+SetVolumeMusic (int value) - Sets the volume of the music on the phone. Has an int attribute, which is responsible for volume
+AndroidAPI.SetVolumeMusic (10);
+
+StartApp (string packages) - Opens a third party application. Has an attribute of type string, which is responsible for the Package ID
+AndroidAPI.StartApp (com.example.app);
+
+ToShare (string message) - A method with which you can send text to various social media. networks. Accepts string attributes responsible for the message being sent
+AndroidAPI.ToShare ("Goog game, bro! Let's go playing!");
+
+SetBluetooth (bool active) - Method allowing interaction with the user's Bluetooth. Has bool attributes indicating whether Bluetooth is enabled
+AndroidAPI.SetBluetooth (true);
+
+SetLantern (bool act) - A method that allows you to interact with the user's flashlight. Has bool attributes indicating whether the flashlight is on
+AndroidAPI.SetLantern (false);
+
+getAppInstall (string app) - Returns a bool variable that indicates whether the application is installed on the user's device (true - installed, false - not installed). Takes attributes of the string type responsible for the Package ID
+bool app = AndroidAPI.getAppInstall ("com.example.app");
+
+GetManufacturePhone () - Returns a string representing the manufacturer of the phone (Xiaomi, Samsung)
+string manuf = AndroidAPI.GetManufacturePhone ();
+
+GetSdkPhone () - Returns an int representing the SDK version
+int sdk = AndroidAPI.GetSdkPhone ();
+
+GetModelPhone () - Returns a string variable indicating the phone model (MI9, S10e)
+string model = AndroidAPI.GetModelPhone ();
+
+GetDisplayInfoPhone () - Returns a string representing information about the display
+string disp = AndroidAPI.GetDisplayInfoPhone ();
+
+CallPhone (string number) - Calling method. Has a string attribute representing a phone number
+AndroidAPI.CallPhone ("79999999999");
+
+OpenSettings () - Method that opens settings
+AndroidAPI.OpenSettings ();
+
+OpenBluetoothSettings () - Method for opening Bluetooth settings
+AndroidAPI.OpenBluetoothSettings ();
+
+OpenDisplaySettings () - Method that opens screen settings
+AndroidAPI.OpenDisplaySettings ();
+
+OpenDeviceInfoSettings () - Method that opens information about the phone
+AndroidAPI.OpenDeviceInfoSettings ();
+
+OpenApplicationSettings () - Method that opens application settings
+AndroidAPI.OpenApplicationSettings ();
+
+OpenSoundsSettings () - Method that opens sound settings
+AndroidAPI.OpenSoundsSettings ();
+
+OpenSite (string url) - Method that opens the browser and automatically goes to the specified site. Has a string attribute indicating a link to the site
+AndroidAPI.OpenSite ("https://unity.com");
+
+OpenMap (string pos) - Opens the map application, and automatically enters the given coordinates. Has an attribute of type string indicating the coordinates
+AndroidAPI.OpenMap ("- 90, 90");
+
+PermOnCallPhoneo () - gets permission to use calls
+
+PermOnRecordAudio () - Get permission to record audio
+
+PermOnReadContacts () - gets permission to read contacts
+
+PermOnRead_Calender () - gets permission to read the calendar
+
+PermOnCamera () - gets permission to use the camera
+
+PermOnWRITE_EXTERNAL_STORAGE () - gets permission to write files
